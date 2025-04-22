@@ -35,7 +35,7 @@ class HomePage extends StatelessWidget {
             SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {
-                // Navigasi ke SecondPage
+               
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => SecondPage()),
@@ -68,8 +68,8 @@ class SecondPage extends StatelessWidget {
             SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {
-                // Kembali ke HomePage
-                Navigator.pop(context); // Pastikan Navigator dipanggil dengan benar
+                
+                Navigator.pop(context); 
               },
               child: Text('Kembali ke Halaman Utama'),
             ),
